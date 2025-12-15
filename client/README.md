@@ -1,16 +1,124 @@
-# React + Vite
+# 📚 ExamGenie  
+### AI-Powered Exam Preparation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ExamGenie is a modern, full-stack academic web application designed to help students study smarter by transforming uploaded reviewers into **AI-generated mock exams**. Built for **school and academic use**, it focuses on learning reinforcement, self-assessment, and progress tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 🔐 Authentication
+- Secure **Login & Signup** using Supabase (Email & Password)
+- Protected routes for authenticated users
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Landing Page
+- Scrollable **Home Page**
+- Call-to-action sections
+- Modern navigation menu
+- Footer with helpful links
 
-## Expanding the ESLint configuration
+### 📂 Reviewer Upload
+- Upload **PDF reviewers** (up to 10MB)
+- Stored securely using Supabase Storage
+- Automatic text extraction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧠 AI Exam Generator
+- Generates mock exams directly from uploaded reviewers
+- Supported question types:
+  - Multiple Choice
+  - True / False
+  - Identification
+  - Short Answer
+- Customizable:
+  - Number of questions
+  - Difficulty level (Easy / Medium / Hard)
+  - Randomized questions per attempt
+
+### ⏱️ Exam System
+- Timed exams
+- Unlimited retakes
+- Auto-submit on timeout
+
+### 📊 Results & Analytics
+- Instant scoring
+- Correct answers shown
+- AI-generated explanations
+- Performance graphs
+- Topic-level weakness analysis
+- Improvement suggestions
+
+### 📁 Dashboard
+- Sidebar navigation
+- Exam history
+- Progress tracking
+- Subject management
+
+### 🌗 Dark & Light Mode
+- Modern UI with theme toggle
+- Fully responsive design
+
+### 💳 Payment Integration
+- Stripe / PayPal support
+- Subscription-based premium features
+- Secure checkout and plan management
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js** (Vite)
+- **Tailwind CSS**
+- React Router
+- Context API (Auth & Theme)
+
+### Backend
+- **Node.js**
+- **Express.js**
+- REST API architecture
+
+### Database & Auth
+- **Supabase**
+  - Authentication
+  - PostgreSQL Database
+  - File Storage
+
+### AI
+- LLM-based API (Free / Low-cost)
+- Used for:
+  - Exam generation
+  - Auto-grading
+  - Explanations
+  - Improvement suggestions
+
+### Payments
+- Stripe or PayPal
+
+---
+
+## 📁 Project Structure
+
+```bash
+examgenie/
+│
+├── client/                 # React Frontend
+│   ├── src/
+│   │   ├── components/     # Navbar, Sidebar, Footer, UI components
+│   │   ├── pages/          # Home, Login, Dashboard, Exam, Results
+│   │   ├── context/        # Auth & Theme Context
+│   │   ├── hooks/          # Custom hooks
+│   │   ├── utils/          # Helper functions
+│   │   ├── assets/         # Images & icons
+│   │   └── App.jsx
+│   └── tailwind.config.js
+│
+├── server/                 # Express Backend
+│   ├── routes/             # API routes
+│   ├── controllers/        # Business logic
+│   ├── services/           # AI, Supabase, Payments
+│   ├── middleware/         # Auth & validation
+│   └── index.js
+│
+├── .env
+├── README.md
+└── package.json
