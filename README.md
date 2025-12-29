@@ -1,4 +1,4 @@
-# On going *must edit*
+# On going (edited)
 # 📚 ExamGenie  
 ### AI-Powered Exam Preparation Platform
 
