@@ -1,4 +1,4 @@
-# On going (edited)
+# Ongoing Project
 # 📚 ExamGenie  
 ### AI-Powered Exam Preparation Platform
 
