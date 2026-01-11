@@ -1,4 +1,3 @@
-# Project 1
 # 📚 ExamGenie  
 ### AI-Powered Exam Preparation Platform
 
