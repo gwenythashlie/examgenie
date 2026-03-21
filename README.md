@@ -1,4 +1,4 @@
-# 📚 ExamGenie (100)
+# 📚 ExamGenie
 ### AI-Powered Exam Preparation Platform
 
 ExamGenie is a modern, full-stack academic web application designed to help students study smarter by transforming uploaded reviewers into **AI-generated mock exams**. Built for **school and academic use**, it focuses on learning reinforcement, self-assessment, and progress tracking.
