@@ -1,4 +1,4 @@
-# 📚 ExamGenie App
+# 📚 ExamGenie
 
 ### AI-Powered Exam Preparation Platform
 
