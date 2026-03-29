@@ -1,4 +1,4 @@
-# 📚 ExamGenie (TBA)
+# 📚 ExamGenie
 
 ### AI-Powered Exam Preparation Platform
 
